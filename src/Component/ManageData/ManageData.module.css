@@ -1,0 +1,195 @@
+#manageDataAnalytics {
+}
+
+.manage_data_analytiecs_container {
+  background-color: #ffff;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.data_analytiecs_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data_analytiecs_img img {
+  max-width: 100%;
+}
+
+.data_analytiecs_text {
+  max-width: 500px;
+}
+.data_analytiecs_text b {
+  color: rgb(50, 151, 241);
+  font-size: 15px;
+}
+.data_analytiecs_text h1 {
+  font-size: 30px;
+  color: #000000d0;
+  margin-top: 15px;
+}
+
+.data_analytiecs_text p {
+  margin: 13px 0px;
+  color: rgba(0, 0, 0, 0.651);
+}
+.get_started_btn {
+  padding: 6px 15px;
+  outline: none;
+  color: #ffff;
+  background-color: rgb(3, 135, 238);
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.get_started_btn:hover,
+.subscribe_email_input button:hover {
+  box-shadow: 3px 3px 15px rgb(3, 135, 238);
+  background-color: rgb(3, 98, 170);
+  color: rgb(230, 241, 241);
+  border-radius: 2px;
+}
+
+.subscribe_container {
+  padding: 70px;
+  background-color: #000;
+  color: #fff;
+}
+
+.subscribe_inner_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.subscribe_inner_content h2 {
+  margin-bottom: 8px;
+}
+
+.subscribe_inner_content small {
+  font-size: 14px;
+}
+
+.subscribe_email_input form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  padding: 5px 10px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  color: black;
+}
+
+.subscribe_email_input button {
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+  background: rgb(3, 135, 238);
+  border-radius: 2px;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.subscribe_email_input small a {
+  color: rgb(3, 135, 238);
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 884px) {
+  .manage_data_analytiecs_container {
+    padding: 90px 10px;
+    gap: 50px;
+  }
+
+  .data_analytiecs_text {
+    max-width: 400px;
+  }
+
+  .subscribe_container {
+    padding: 70px 20px 70px 150px;
+  }
+
+  .subscribe_inner_content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .manage_data_analytiecs_container {
+    padding: 60px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .data_analytiecs_text b {
+    font-size: 14px;
+  }
+
+  .data_analytiecs_text h1 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .subscribe_container {
+    padding: 70px 20px 70px 120px;
+  }
+
+  .subscribe_inner_content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .manage_data_analytiecs_container {
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  .subscribe_container {
+    padding: 40px 20px;
+  }
+
+  .subscribe_email_input form {
+    gap: 10px;
+  }
+
+  input[type="email"] {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .subscribe_container {
+    padding: 60px 10px;
+  }
+
+  .subscribe_email_input form {
+    gap: 8px;
+  }
+
+  input[type="email"] {
+    padding: 3px 7px;
+    font-size: 16px;
+  }
+}
